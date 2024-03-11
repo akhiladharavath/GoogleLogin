@@ -1,0 +1,96 @@
+.row1 {
+    display: flex;
+    /* This enables Flexbox */
+    justify-content: center;
+    /* This centers the items horizontally */
+    align-items: center;
+    /* This centers the items vertically */
+    border: 1px solid white;
+    /* Example border */
+    box-shadow: 0 2px 5px white;
+    background-color: white;
+    /* Example shadow */
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+
+}
+
+.column1 {
+    /* If you want some space between the columns, you can add margin */
+    margin: 0 0px;
+
+    /* If you want the columns to take up equal space, you can add flex: 1 */
+    /* flex: 1; */
+}
+
+.contact-form {
+    
+    /* Set the background color to white */
+    padding: 20px;
+    /* Add some padding around the form */
+    border-radius: 5px;
+    /* Optional: Rounded corners for the form */
+    max-width: 400px;
+    /* Maximum width of the form */
+    margin: auto;
+    /* Center the form on the page */
+    
+    /* Optional: Add a subtle shadow to the form */
+}
+
+.contact-form label {
+    display: block;
+    /* Make the label take the full width */
+    margin-bottom: 5px;
+    /* Space between the label and the input */
+    margin-left: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="file"],
+/* Add styles for file input */
+.contact-form textarea {
+    width: 90%;
+    /* Full width of the form */
+    padding: 10px;
+    /* Padding inside the input */
+    margin-bottom: 20px;
+    /* Space between each field */
+    border-radius: 4px;
+    /* Rounded corners for the inputs and textarea */
+    border: 1px solid #ddd;
+    /* A light border around the inputs */
+    box-sizing: border-box;
+   
+    margin-left: 10px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4285F4;
+    /* A nice blue color for the submit button */
+    color: white;
+    /* White text color */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    border: none;
+    /* Remove the default border */
+    border-radius: 4px;
+    /* Rounded corners for the button */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the button */
+    transition: background-color 0.2s;
+    /* Smooth transition for button hover effect */
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #357ae8;
+    /* Darker blue color on hover */
+}
+
+.vector {
+    width: 30px;
+    height: 500px;
+}
